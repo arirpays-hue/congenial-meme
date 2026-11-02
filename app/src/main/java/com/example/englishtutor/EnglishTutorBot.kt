@@ -5,7 +5,7 @@ import com.google.ai.client.generativeai.type.content
 
 class EnglishTutorBot(apiKey: String) {
     private val generativeModel = GenerativeModel(
-        modelName = "gemini-1.5-flash",
+        modelName = "gemini-1.5"
         apiKey = apiKey,
         systemInstruction = content {
             text("You are an expert English tutor. Engage in natural conversation with the user to help them practice English. " +
